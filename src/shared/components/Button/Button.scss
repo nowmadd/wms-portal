@@ -1,0 +1,567 @@
+// VARIABLES //
+
+////COLORS
+$primary-color: #865cbd;
+$primary-shadow: #5e2fa9;
+$primary-pale-color: #dfd8f3;
+$primary-pale-shadow: #d0bbf0;
+$success-color: #529b4c;
+$success-shadow: #3b6a36;
+$pending-color: #e49a50;
+$pending-shadow: #b1823e;
+$failure-color: #be4b4a;
+$failure-shadow: #803332;
+$info-color: #3788ff;
+$info-shadow: #005fcc;
+$grey-color: #767676;
+$grey-shadow: #575757;
+$black-color: #111111;
+$black-shadow: #545454;
+$white-color: #ffffff;
+$white-shadow: #cccccc;
+
+.button__solid {
+  width: 300px;
+  padding: 15px 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+  border-width: 0px;
+  border-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  background-color: transparent;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  align-self: center;
+
+  &:active {
+    margin-bottom: 0px;
+    margin-top: 4px;
+    border-bottom-width: 0px;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &__text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    gap: 0 5px;
+
+    i {
+      color: #3788ff;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  &__primary {
+    border-color: $primary-color;
+    border-bottom-color: $primary-shadow;
+    background-color: $primary-color;
+  }
+
+  &__primary_pale {
+    border-color: $primary-pale-color;
+    border-bottom-color: $primary-pale-shadow;
+    background-color: $primary-pale-color;
+  }
+
+  &__success {
+    border-color: $success-color;
+    border-bottom-color: $success-shadow;
+    background-color: $success-color;
+  }
+
+  &__info {
+    border-color: $info-color;
+    border-bottom-color: $info-shadow;
+    background-color: $info-color;
+  }
+
+  &__pending {
+    border-color: $pending-color;
+    border-bottom-color: $pending-shadow;
+    background-color: $pending-color;
+  }
+
+  &__failure {
+    border-color: $failure-color;
+    border-bottom-color: $failure-shadow;
+    background-color: $failure-color;
+  }
+
+  &__grey {
+    border-color: $grey-color;
+    border-bottom-color: $grey-shadow;
+    background-color: $grey-color;
+  }
+
+  &__black {
+    border-color: $black-color;
+    border-bottom-color: $black-shadow;
+    background-color: $black-color;
+  }
+}
+
+.button__outlined {
+  width: 300px;
+  padding: 14px 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-width: 4px;
+  background-color: transparent;
+  text-decoration: none;
+  align-self: center;
+
+  &:active {
+    margin-bottom: 0px;
+    margin-top: 2px;
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+    i {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: -2px;
+      margin-right: -5px;
+    }
+  }
+
+  &__primary {
+    color: $primary-color;
+    border-color: $primary-color;
+  }
+
+  &__primary_pale {
+    color: $primary-pale-color;
+    border-color: $primary-pale-color;
+  }
+
+  &__success {
+    color: $success-color;
+    border-color: $success-color;
+  }
+
+  &__info {
+    color: $info-color;
+    border-color: $info-color;
+  }
+
+  &__pending {
+    color: $pending-color;
+    border-color: $pending-color;
+  }
+
+  &__failure {
+    color: $failure-color;
+    border-color: $failure-color;
+  }
+
+  &__grey {
+    color: $grey-color;
+    border-color: $grey-color;
+  }
+
+  &__black {
+    color: $black-color;
+    border-color: $black-color;
+  }
+
+  &__white {
+    color: $black-color;
+    background-color: $white-color;
+    border-color: $white-shadow;
+  }
+}
+
+.button__solid-thin {
+  padding: 5px 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+  border-width: 0px;
+  border-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  background-color: transparent;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  align-self: center;
+
+  &:active {
+    margin-bottom: 0px;
+    margin-top: 4px;
+    border-bottom-width: 0px;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &__text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0 5px;
+
+    i {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  &__primary {
+    border-color: $primary-color;
+    border-bottom-color: $primary-shadow;
+    background-color: $primary-color;
+  }
+
+  &__primary_pale {
+    border-color: $primary-pale-color;
+    border-bottom-color: $primary-pale-shadow;
+    background-color: $primary-pale-color;
+  }
+
+  &__success {
+    border-color: $success-color;
+    border-bottom-color: $success-shadow;
+    background-color: $success-color;
+  }
+
+  &__info {
+    border-color: $info-color;
+    border-bottom-color: $info-shadow;
+    background-color: $info-color;
+  }
+
+  &__pending {
+    border-color: $pending-color;
+    border-bottom-color: $pending-shadow;
+    background-color: $pending-color;
+  }
+
+  &__failure {
+    border-color: $failure-color;
+    border-bottom-color: $failure-shadow;
+    background-color: $failure-color;
+  }
+
+  &__grey {
+    border-color: $grey-color;
+    border-bottom-color: $grey-shadow;
+    background-color: $grey-color;
+  }
+
+  &__black {
+    border-color: $black-color;
+    border-bottom-color: $black-shadow;
+    background-color: $black-color;
+  }
+}
+
+.button__outlined-thin {
+  padding: 5px 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  background-color: transparent;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  user-select: none;
+  justify-content: center;
+  align-self: center;
+
+  &:active {
+    margin-bottom: 0px;
+    margin-top: 2px;
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    gap: 0 5px;
+
+    i {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  &__primary {
+    color: $primary-color;
+    border-color: $primary-color;
+  }
+
+  &__primary_pale {
+    color: $primary-pale-color;
+    border-color: $primary-pale-color;
+  }
+
+  &__success {
+    color: $success-color;
+    border-color: $success-color;
+  }
+
+  &__info {
+    color: $info-color;
+    border-color: $info-color;
+  }
+
+  &__pending {
+    color: $pending-color;
+    border-color: $pending-color;
+  }
+
+  &__failure {
+    color: $failure-color;
+    border-color: $failure-color;
+  }
+
+  &__grey {
+    color: $grey-color;
+    border-color: $grey-color;
+  }
+
+  &__black {
+    color: $black-color;
+    border-color: $black-color;
+  }
+
+  &__white {
+    color: $black-color;
+    background-color: $white-color;
+    border-color: $white-shadow;
+  }
+}
+
+.button__flat {
+  padding: 15px 30px;
+  border-radius: 25px;
+  border-style: solid;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  user-select: none;
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    gap: 0 2px;
+
+    i {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  &__primary {
+    color: $primary-color;
+    border-color: $primary-color;
+  }
+
+  &__primary_pale {
+    color: $primary-pale-color;
+    border-color: $primary-pale-color;
+  }
+
+  &__success {
+    color: $success-color;
+    border-color: $success-color;
+  }
+
+  &__info {
+    color: $info-color;
+    border-color: $info-color;
+  }
+
+  &__pending {
+    color: $pending-color;
+    border-color: $pending-color;
+  }
+
+  &__failure {
+    color: $failure-color;
+    border-color: $failure-color;
+  }
+
+  &__grey {
+    color: $grey-color;
+    border-color: $grey-color;
+  }
+
+  &__black {
+    color: $black-color;
+    border-color: $black-color;
+  }
+}
+
+.button__refresh {
+  padding: 9px 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  background-color: transparent;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  user-select: none;
+  justify-content: center;
+  align-self: center;
+
+  &:active {
+    margin-bottom: 0px;
+    margin-top: 2px;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    gap: 0 5px;
+
+    i {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  &__primary {
+    color: $primary-color;
+    border-color: $primary-color;
+  }
+
+  &__primary_pale {
+    color: $primary-pale-color;
+    border-color: $primary-pale-color;
+  }
+
+  &__success {
+    color: $success-color;
+    border-color: $success-color;
+  }
+
+  &__info {
+    color: $info-color;
+    border-color: $info-color;
+  }
+
+  &__pending {
+    color: $pending-color;
+    border-color: $pending-color;
+  }
+
+  &__failure {
+    color: $failure-color;
+    border-color: $failure-color;
+  }
+
+  &__grey {
+    color: $grey-color;
+    border-color: $grey-color;
+  }
+
+  &__black {
+    color: $black-color;
+    border-color: $black-color;
+  }
+
+  &__white {
+    color: $black-color;
+    background-color: $white-color;
+    border-color: $white-shadow;
+  }
+}

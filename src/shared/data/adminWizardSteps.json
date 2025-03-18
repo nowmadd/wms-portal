@@ -1,0 +1,146 @@
+[
+  {
+    "key": "create_warehouse",
+    "title": "Create a Warehouse",
+    "headerText": "Well done, You've taken the first step toward building an Inventory Management solution for your Warehouse.\nTo get set up, start by creating a Warehouse.\nA Warehouse enables you to create Locations and store Inventory",
+    "infoArr": [
+      {
+        "title": "How to Setup a Warehouse",
+        "description": "Go to Warehouses.\n\n1. Select create warehouse\n2. Fill out the form providing your Warehouse details\n3. Select create warehouse"
+      }
+    ],
+    "youtubeLink": "DNVNMniWqMY",
+    "knowledgeBaseInfo": {
+      "title": "Learn more about Warehouses",
+      "link": "https://indigowms.atlassian.net/servicedesk/customer/portal/1/article/705298747"
+    },
+    "goto": {
+      "link": "/admin/warehouses",
+      "title": "Go to Warehouse"
+    },
+    "skippable": false
+  },
+  {
+    "key": "create_location",
+    "title": "Create a Location",
+    "headerText": "Good Job, you’ve created a Warehouse.\n\nNow you can populate your warehouse with Locations.\n\nLocations will allow you to store Inventory.\n\nHint: Start by adding 5 locations. You can add more locations later",
+    "infoArr": [
+      {
+        "title": "How to Setup a Locations",
+        "description": "Go to locations.\n\n1. Select create location\n2. Select a warehouse from the dropdown menu. The Location will be placed in the selected Warehouse\n3. Enter a value for Aisle, *Bay* and Level. This will create a location ID and help you to locate Inventory in your warehouse.\n4. Select create location\n\n*required field"
+      }
+    ],
+    "youtubeLink": "nTohIhrF0uY",
+    "knowledgeBaseInfo": {
+      "title": "Learn more about Locations",
+      "link": "https://indigowms.atlassian.net/servicedesk/customer/portal/1/article/705298770"
+    },
+    "goto": {
+      "link": "/locations/locations",
+      "title": "Go to Locations"
+    },
+    "skippable": false
+  },
+  {
+    "key": "print_location_barcode",
+    "title": "Print Location Barcodes",
+    "headerText": "Each location requires a barcode to be affixed to the corresponding physical location.\n\nBarcodes identify physical locations when using the companion app.\n\nHint: if you have an established warehouse and your locations already have barcodes affixed to them, you may be able to skip this step.",
+    "infoArr": [
+      {
+        "title": "How to Print Barcodes",
+        "description": "Go to locations\n\n1. Select a location\n2. Select Print Barcode\n3. Select Print Details\n4. Print\n5. Affix to corresponding physical location"
+      }
+    ],
+    "youtubeLink": "QjnC8QCHUZw",
+    "knowledgeBaseInfo": {
+      "title": "Learn more about Location Barcodes",
+      "link": "https://indigowms.atlassian.net/servicedesk/customer/portal/1/article/705298770"
+    },
+    "goto": {
+      "link": "/locations/locations",
+      "title": "Go to Locations"
+    },
+    "skippable": true
+  },
+  {
+    "key": "create_inventory",
+    "title": "Create Inventory",
+    "headerText": "Great, You should  have a Warehouse and some locations. \n Add some inventory to your Warehouse",
+    "infoArr": [
+      {
+        "title": "How to Setup Inventory",
+        "description": "Go to Inventory \n 1. Select create item \n 2. Populate the form with the inventory item details\n 3. Once complete, select create item"
+      }
+    ],
+    "youtubeLink": "mMjK86cUfs4",
+    "knowledgeBaseInfo": {
+      "title": "Learn more about Inventory",
+      "link": "https://indigowms.atlassian.net/servicedesk/customer/portal/1/article/705298848"
+    },
+    "goto": {
+      "link": "/inventory/items",
+      "title": "Go to Inventory"
+    },
+    "skippable": false
+  },
+  {
+    "key": "download_app",
+    "title": "Download the App",
+    "headerText": "Awesome, You should have a Warehouse, locations and Inventory.\n\nAs an alpha or beta user, you should have received an email inviting you to download the companion app: Mercury Handheld (remember to check your junk).\n\nThe app is required to process jobs in your warehouse.\n\nOnce downloaded onto your device, Login into the app using the same credentials you’ve used to signup here.\n\nIf you have not received an email please contact richard.williams@indigo.co.uk",
+    "knowledgeBaseInfo": {
+      "title": "Learn more about the Companion App",
+      "link": "https://indigowms.atlassian.net/servicedesk/customer/kb/view/846954498"
+    },
+    "skippable": false
+  },
+  {
+    "key": "create_jobs",
+    "title": "Create Jobs",
+    "headerText": "You’re almost set. \n\n With the App, you can create or fulfil planned jobs in your warehouse. \n\nHint. to ensure your digital warehouse is an accurate reflection of your physical space, go to stock check in the app and start counting your inventory.",
+    "infoArr": [
+      {
+        "title": "How to Create an Unplanned Job",
+        "description": "Open Mercury Handheld on your device\n 1. Select  Stock Check or other job type\n 2. Follow in app instructions"
+      },
+      {
+        "title": "How to Create a Planned Job",
+        "description": "Go to Jobs\n1. Select create Job\n2. Select Job Type\n3. Select create Job\n4. Complete Create Job form\n5. Select create Job \n6. Go to App > Jobs"
+      }
+    ],
+    "youtubeLink": "G2qKweY7yWo",
+    "knowledgeBaseInfo": {
+      "title": "Learn more about Jobs",
+      "link": "https://indigowms.atlassian.net/servicedesk/customer/portal/1/article/705298908"
+    },
+    "goto": {
+      "link": "/jobs",
+      "title": "Go to Jobs"
+    },
+    "skippable": true
+  },
+  {
+    "key": "import_orders",
+    "title": "Import Orders",
+    "headerText": "Good Work!\n\nOnce you are satisfied your digital warehouse is an accurate refection of your physical space. You can start processing orders.",
+    "infoArr": [
+      {
+        "title": "1. Download CSV Template",
+        "description": "Go to Orders\n\n1. Select Import orders\n2. Select Download CSV Template\n3. Open the .csv document and Map your customer order data to the appropriate columns\n4. Export as a .csv file"
+      },
+      {
+        "title": "2. How to Import Orders",
+        "description": "Go to Orders\n\n1. Select Import orders\n2. Drag & Drop or choose a .csv file to upload\n3. Select validate files\n4. Select Import"
+      }
+    ],
+    "youtubeLink": "g_fdjb4C_nc",
+    "knowledgeBaseInfo": {
+      "title": "Learn more about Orders",
+      "link": "https://indigowms.atlassian.net/servicedesk/customer/portal/1/article/705298871"
+    },
+    "goto": {
+      "link": "/orders",
+      "title": "Go to Orders"
+    },
+    "skippable": false
+  }
+]

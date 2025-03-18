@@ -1,0 +1,53 @@
+[
+  {
+    "key": "update_profile",
+    "title": "Update Profile",
+    "headerText": "Before we get started, we need to grab some additional details to personalise your experience.\n\nGo to your profile section and update your personal information.\n\nYou can use this section to view the privacy policy as well as terms and conditions.",
+    "infoArr": [
+      {
+        "title": "How to update your profile",
+        "description": "Go to Profile.\n\n1. Select General Tab\n2. Update First Name and Last Name fields\n3. Select save"
+      }
+    ],
+    "knowledgeBaseInfo": {
+      "title": "Learn more about Profile",
+      "link": ""
+    },
+    "goto": {
+      "link": "/profile/general",
+      "title": "Go to Profile"
+    },
+    "skippable": false
+  },
+  {
+    "key": "download_app",
+    "title": "Download The App",
+    "headerText": "As a alpha or BETA user, you should have received an email inviting you to download the companion app: Mercury Handheld (remember to check your junk).\nThe app is required to process jobs in your warehouse.\n\nOnce downloaded onto your device, Login into the app using the same credentials you’ve used to signup here.\n\nIf you have not received an email please contact richard.williams@indigo.co.uk",
+    "knowledgeBaseInfo": {
+      "title": "Learn more about the Companion App",
+      "link": "https://indigowms.atlassian.net/servicedesk/customer/kb/view/846954498"
+    },
+    "skippable": false
+  },
+  {
+    "key": "perform_jobs",
+    "title": "Perform Jobs",
+    "headerText": "You’re ready to go.\n\nThe app is integral to processing inventory in your warehouse.\n\nWhether you are moving inventory from one location to another, adding new inventory using receipt or checking your stock levels. the app is the primary tool you need to ensure your digital warehouse reflects your physical space.",
+    "infoArr": [
+      {
+        "title": "How to Create an Unplanned Job",
+        "description": "Unplanned jobs are done on the fly and started by selecting one on the job types in the app. \n\n 1. Open Mercury Handheld on your device. \n2. Select Stock Check or other job type\n3. Follow in app instructions\n4. Complete Job"
+      },
+      {
+        "title": "How to Create a Planned Job",
+        "description": "Planned jobs are those created by the Warehouse Supervisor. Planned Jobs appear in app on the users Job list.\n\n1. Open Mercury Handheld on your device\n2. Select Jobs\n3. Start a job\n4. Follow in app instructions\n5. Complete Job"
+      }
+    ],
+
+    "knowledgeBaseInfo": {
+      "title": "Learn more about Jobs",
+      "link": "https://indigowms.atlassian.net/servicedesk/customer/portal/1/article/705298908"
+    },
+    "skippable": true
+  }
+]

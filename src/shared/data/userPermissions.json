@@ -1,0 +1,115 @@
+[
+  {
+    "role": "Standard",
+    "handheldAccess": {
+      "display": "Handheld Access",
+      "allow": true,
+      "description": "Access to the iOS and Android mobile applications."
+    },
+    "portalAccess": {
+      "display": "Portal Access",
+      "allow": true,
+      "description": "Access to the Mercury portal."
+    },
+    "managementAccess": {
+      "display": "Management Access",
+      "allow": false,
+      "description": "Access to Create and Edit functions."
+    },
+    "administratorAccess": {
+      "display": "Administrator Access",
+      "allow": false,
+      "description": "Access to administer the Mercury Platform."
+    },
+    "ownerAccess": {
+      "display": "Owner Access",
+      "allow": false,
+      "description": "Assign Administrator Access to users."
+    }
+  },
+  {
+    "role": "Supervisor",
+    "handheldAccess": {
+      "display": "Handheld Access",
+      "allow": true,
+      "description": "Access to the iOS and Android mobile applications."
+    },
+    "portalAccess": {
+      "display": "Portal Access",
+      "allow": true,
+      "description": "Access to the Mercury portal."
+    },
+    "managementAccess": {
+      "display": "Management Access",
+      "allow": true,
+      "description": "Access to Create and Edit functions."
+    },
+    "administratorAccess": {
+      "display": "Administrator Access",
+      "allow": false,
+      "description": "Access to administer the Mercury Platform."
+    },
+    "ownerAccess": {
+      "display": "Owner Access",
+      "allow": false,
+      "description": "Assign Administrator Access to users."
+    }
+  },
+  {
+    "role": "Administrator",
+
+    "handheldAccess": {
+      "display": "Handheld Access",
+      "allow": true,
+      "description": "Access to the iOS and Android mobile applications."
+    },
+    "portalAccess": {
+      "display": "Portal Access",
+      "allow": true,
+      "description": "Access to the Mercury portal."
+    },
+    "managementAccess": {
+      "display": "Management Access",
+      "allow": true,
+      "description": "Access to Create and Edit functions."
+    },
+    "administratorAccess": {
+      "display": "Administrator Access",
+      "allow": true,
+      "description": "Access to administer the Mercury Platform."
+    },
+    "ownerAccess": {
+      "display": "Owner Access",
+      "allow": false,
+      "description": "Assign Administrator Access to users."
+    }
+  },
+  {
+    "role": "Owner",
+    "handheldAccess": {
+      "display": "Handheld Access",
+      "allow": true,
+      "description": "Access to the iOS and Android mobile applications."
+    },
+    "portalAccess": {
+      "display": "Portal Access",
+      "allow": true,
+      "description": "Access to the Mercury portal."
+    },
+    "managementAccess": {
+      "display": "Management Access",
+      "allow": true,
+      "description": "Access to Create and Edit functions."
+    },
+    "administratorAccess": {
+      "display": "Administrator Access",
+      "allow": true,
+      "description": "Access to administer the Mercury Platform."
+    },
+    "ownerAccess": {
+      "display": "Owner Access",
+      "allow": true,
+      "description": "Assign Administrator Access to users."
+    }
+  }
+]

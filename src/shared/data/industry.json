@@ -1,0 +1,13 @@
+[
+  { "label": "Fashion/Clothing", "value": "Fashion/Clothing" },
+  { "label": "Food & Beverage", "value": "Food & Beverage" },
+  { "label": "Automotive", "value": "Automotive" },
+  { "label": "Wholesale & Distribution", "value": "Wholesale & Distribution" },
+  { "label": "Pharmaceuticals, Chemicals & Cosmetics", "value": "Pharmaceuticals, Chemicals & Cosmetics" },
+  { "label": "Manufacturing", "value": "Manufacturing" },
+  { "label": "eCommerce", "value": "eCommerce" },
+  { "label": "Packaging", "value": "Packaging" },
+  { "label": "Cold Chain Storage", "value": "Cold Chain Storage" },
+  { "label": "3PL", "value": "3PL" },
+  { "label": "Other", "value": "Other" }
+]

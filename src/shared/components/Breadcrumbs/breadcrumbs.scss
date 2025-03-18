@@ -1,0 +1,21 @@
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: smaller;
+  color: #707070;
+  text-transform: capitalize;
+  cursor: pointer;
+
+  &__pathcrumbs {
+    font-weight: bold;
+  }
+
+  &__chevron {
+    padding-top: 2px;
+  }
+
+  &__currentcrumb {
+    text-transform: none;
+  }
+}

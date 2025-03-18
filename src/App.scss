@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #404040;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.Toastify__toast-container {
+  padding: 0 !important;
+}
+
+.Toastify__toast {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  width: fit-content !important;
+  // margin: 0 !important;
+}
+
+.Toastify__toast-body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.Toastify__close-button {
+  display: none !important;
+}
